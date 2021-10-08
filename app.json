@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/dating/dating",
+    "pages/bbquan/bbquan",
+    "pages/wode/wode",
+    "pages/duoren/duoren",
+    "pages/danren/danren"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1b0e3e",
+    "navigationBarTitleText": "博个饼",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#1e1148",
+    "selectedColor": "5101fd",
+    "backgroundColor": "#F8FD97",
+    "list": [
+      {
+        "pagePath": "pages/dating/dating",
+        "text": "大厅",
+        "iconPath": "/assets/images/tabbar/hd.png",
+        "selectedIconPath": "/assets/images/tabbar/ld.png"
+      },
+      {
+        "pagePath": "pages/bbquan/bbquan",
+        "text": "博饼圈",
+        "iconPath": "/assets/images/tabbar/hg.png",
+        "selectedIconPath": "/assets/images/tabbar/lg.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "/assets/images/tabbar/hw.png",
+        "selectedIconPath": "/assets/images/tabbar/lw.jpg"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

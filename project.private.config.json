@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "大厅",
+          "pathName": "pages/dating/dating",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "博饼圈",
+          "pathName": "pages/bbquan/bbquan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/wode/wode",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

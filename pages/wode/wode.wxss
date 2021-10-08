@@ -1,0 +1,8 @@
+.my{
+  background-color:#1b0e3e ;
+}
+.my image{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}

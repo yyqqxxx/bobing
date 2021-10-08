@@ -1,0 +1,17 @@
+<!--pages/dating/dating.wxml-->
+<view class="container">
+    <image class="background" src="/assets/images/background.jpg"></image>
+    <other-widget class="other-widget">
+        <view class="goDuoren">
+            <navigator url='/pages/duoren/duoren'>
+                 <image src='/assets/images/duoren.png' class='duo'></image>
+            </navigator>
+        </view>
+        <!--上面多人，下面单人-->>
+        <view class="goDanren">
+            <navigator url='/pages/danren/danren'>
+                 <image src='/assets/images/danren.png' class='dan'></image>
+            </navigator>
+        </view>
+    </other-widget>  <!--图层高 -->
+</view>
