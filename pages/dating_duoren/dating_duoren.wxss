@@ -54,9 +54,8 @@ height: 65rpx;
 font-size: small;
 font-weight: 400;
 border-radius: 10px;
-color: var(--yellowColor);
+color: #fefeae;
 border: 4rpx solid var(-- yellowColor);
-
 }
 
 .in{    /*确定按钮*/
@@ -75,14 +74,14 @@ font-size:medium;
 font-weight: 400;
 border-radius: 30px;
 background-color: var(--redColor);
-color: var(--yellowColor);
+color: #fefeae;
 border-width: 60rpx;
 border-color: var(--yellowColor);
 }
 
 .tishi{ /*输入提示*/
   font-size: small;
-  color: var(--buleColor);
+  color: #fefeae;
   position: fixed;
   margin: 0 5%;
   top: 450rpx;
@@ -168,7 +167,7 @@ position: relative;
 
 /* 下拉内容 */
 .select_box {
- background-color: var(--yellowColor);
+ background-color: #fefeae;
  padding: 0 20rpx;
  width: 230rpx;
  float: right;
@@ -235,7 +234,7 @@ justify-content: center;
 margin-top: 200rpx;
 height: 80rpx;
 width: 450rpx;
-color: var(--yellowColor);
+color: #fefeae;
 background-color: var(--redColor);
 border: 3rpx solid var(--yellowColor);
 }
@@ -249,7 +248,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: 60rpx;
 }
 .img1{
@@ -353,7 +352,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -380,7 +379,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -408,7 +407,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -435,7 +434,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 .p33{
@@ -461,7 +460,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -489,7 +488,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -516,7 +515,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 .p43{
@@ -542,7 +541,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -569,7 +568,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 
@@ -792,6 +791,6 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }

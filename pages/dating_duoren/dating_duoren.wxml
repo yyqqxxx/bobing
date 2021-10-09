@@ -283,7 +283,7 @@
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
-                    <image class='playDice' src="/image/playDice.gif"></image>
+                    <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
@@ -300,16 +300,16 @@
             </view>
             <view wx:if="{{p==3}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p41' src="/image/p2.jpg">
+                    <image class='p41' src="/assets/images/touxiang.jpg">
                         <text class='p41text'>{{userName[0]}}</text>
                     </image>
-                    <image class='p42' src="/image/p1.jpg">
+                    <image class='p42' src="/assets/images/touxiang2.jpg">
                         <text class='p42text'>{{userName[1]}}</text>
                     </image>
-                    <image class='p43' src="/image/p3.jpg">
+                    <image class='p43' src="/assets/images/touxiang3.jpg">
                         <text class='p43text'>{{userName[2]}}</text>
                     </image>
-                    <image class='p44' src="/image/p4.jpg">
+                    <image class='p44' src="/assets/images/touxiang4.jpg">
                         <text class='p44text'>{{userName[2]}}</text>
                     </image>
                     
@@ -317,7 +317,7 @@
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
-                    <image class='playDice' src="/image/playDice.gif"></image>
+                    <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
@@ -334,16 +334,16 @@
             </view>
             <view wx:if="{{p==4}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p41' src="/image/p2.jpg">
+                    <image class='p41' src="/assets/images/touxiang.jpg">
                         <text class='p41text'>{{userName[0]}}</text>
                     </image>
-                    <image class='p42' src="/image/p1.jpg">
+                    <image class='p42' src="/assets/images/touxiang2.jpg">
                         <text class='p42text'>{{userName[1]}}</text>
                     </image>
-                    <image class='p43' src="/image/p3.jpg">
+                    <image class='p43' src="/assets/images/touxiang3.jpg">
                         <text class='p43text'>{{userName[2]}}</text>
                     </image>
-                    <image class='p44' src="/image/p4.jpg">
+                    <image class='p44' src="/assets/images/touxiang4.jpg">
                         <text class='p44text'>{{userName[3]}}</text>
                     </image>
                    
@@ -351,7 +351,7 @@
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
-                    <image class='playDice' src="/image/playDice.gif"></image>
+                    <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
@@ -386,7 +386,7 @@
                     <text class='rank_4'>{{rank4}}</text>
                     <text class='score_4'>{{score4}}</text>
                 </view>
-                <navigator url="/pages/create/create">
+                <navigator url="/pages/dating_duoren/dating_duoren">
                     <view class="Again">点击重来>></view>
                 </navigator>
                 <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
