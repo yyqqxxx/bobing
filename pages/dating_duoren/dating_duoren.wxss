@@ -62,21 +62,19 @@ border: 4rpx solid var(-- yellowColor);
 position: fixed;
 margin: 0 5%;
 top: 600rpx;
-left: 240rpx;
+left: 150rpx;
 display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
 flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
 width: 150rpx;
-height: 60rpx;
-font-size:medium;
+height: 100rpx;
+font-size:30px;
 font-weight: 400;
 border-radius: 30px;
 background-color: var(--redColor);
 color: #fefeae;
-border-width: 60rpx;
-border-color: var(--yellowColor);
 }
 
 .tishi{ /*输入提示*/
@@ -143,6 +141,13 @@ font-weight: 400;
 border-radius: 10px;
 color: var(--buleColor);
 border: 4rpx solid var(--yellowColor);
+}
+.top .xuanren{
+  left:10rpx;
+  margin: 100px;
+  position: fixed;
+  width: 100px;
+  height: 50px;
 }
 .top-selected text{
   color:#fefeae;
@@ -242,17 +247,17 @@ background-color: var(--redColor);
 border: 3rpx solid var(--yellowColor);
 }
 .rank{
-  position: fixed;
-  margin: 0 5%;
-  top: 100rpx;
-  left: 250rpx;
-  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-  align-items: center;/* 设置一个大盒子内容居中排列*/
-  justify-content: center;
-  margin-top: 100rpx;
-  color: #fefeaf;
-  font-size: 90rpx;
+position: fixed;
+margin: 0 5%;
+top: 100rpx;
+left: 250rpx;
+display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+align-items: center;/* 设置一个大盒子内容居中排列*/
+justify-content: center;
+margin-top: 100rpx;
+color: #fefeaf;
+font-size: 90rpx;
 }
 .img1{
   position: fixed;

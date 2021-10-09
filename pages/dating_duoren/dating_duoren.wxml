@@ -12,7 +12,7 @@
 
         <view class='top'>
             <view class='top-selected' bindtap='bindShowMsg'>
-                <text>{{num}}</text>
+                <image class="xuanren" src="/assets/images/renshu.png"></image>
 
             </view>
             <!-- 下拉需要显示的列表 -->
