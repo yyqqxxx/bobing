@@ -27,11 +27,11 @@
         <view class='twoPeople' wx:if="{{num=='2人'}}">
             <view wx:if="{{p==1}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p21' src="/assets/images/touxiang.jpg">
-                        <text class='p21text'>{{userName[0]}}</text>
+                    <image class='player2_1' src="/assets/images/touxiang.jpg">
+                        <text class='player2_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p22' src="/assets/images/touxiang2.jpg">
-                        <text class='p22text'>{{userName[1]}}</text>
+                    <image class='player2_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player2_2_name'>{{userName[1]}}</text>
                     </image>
                     
                     <button class='press' bindtap='click1'>请{{userName[p-1]}}点击投掷</button>
@@ -43,23 +43,23 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                    
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='next2'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==2}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p21' src="/assets/images/touxiang.jpg">
-                        <text class='p21text'>{{userName[0]}}</text>
+                    <image class='player2_1' src="/assets/images/touxiang.jpg">
+                        <text class='player2_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p22' src="/assets/images/touxiang2.jpg">
-                        <text class='p22text'>{{userName[1]}}</text>
+                    <image class='player2_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player2_2_name'>{{userName[1]}}</text>
                     </image>
                    
                     <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
@@ -71,27 +71,27 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                    
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='finish'>查看结果</button>
                 </view>
             </view>
-            <view class='finallyRank' wx:if="{{p==0}}">
-                <view class='ranktitle'>
+            <view class='finallydetermine' wx:if="{{p==0}}">
+                <view class='determinetitle'>
                     <text class='title1'>玩家</text>
                     <text class='title2'>成绩</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
-                    <text class='rank_1'>{{rank1}}</text>
+                    <text class='determine_1'>{{determine1}}</text>
                     <text class='score_1'>{{score1}}</text>
                     <text class='name_2'>{{userName[1]}}</text>
-                    <text class='rank_2'>{{rank2}}</text>
+                    <text class='determine_2'>{{determine2}}</text>
                     <text class='score_2'>{{score2}}</text>
                 </view>
                 <navigator url="/pages/dating_duoren/dating_duoren">
@@ -104,14 +104,14 @@
         <view class='threePeople' wx:if="{{num=='3人'}}">
             <view wx:if="{{p==1}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p31' src="/assets/images/touxiang.jpg">
-                        <text class='p31text'>{{userName[0]}}</text>
+                    <image class='player3_1' src="/assets/images/touxiang.jpg">
+                        <text class='player3_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p32' src="/assets/images/touxiang2.jpg">
-                        <text class='p32text'>{{userName[1]}}</text>
+                    <image class='player3_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player3_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p33' src="/assets/images/touxiang3.jpg">
-                        <text class='p33text'>{{userName[2]}}</text>
+                    <image class='player3_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player3_3_name'>{{userName[2]}}</text>
                     </image>
 
                    
@@ -124,26 +124,26 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                 
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='next2'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==2}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p31' src="/assets/images/touxiang.jpg">
-                        <text class='p31text'>{{userName[0]}}</text>
+                    <image class='player3_1' src="/assets/images/touxiang.jpg">
+                        <text class='player3_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p32' src="/assets/images/touxiang2.jpg">
-                        <text class='p32text'>{{userName[1]}}</text>
+                    <image class='player3_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player3_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p33' src="/assets/images/touxiang3.jpg">
-                        <text class='p33text'>{{userName[2]}}</text>
+                    <image class='player3_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player3_3_name'>{{userName[2]}}</text>
                     </image>
                   
                     <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
@@ -155,26 +155,26 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                   
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='next3'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==3}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p31' src="/assets/images/touxiang.jpg">
-                        <text class='p31text'>{{userName[0]}}</text>
+                    <image class='player3_1' src="/assets/images/touxiang.jpg">
+                        <text class='player3_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p32' src="/assets/images/touxiang2.jpg">
-                        <text class='p32text'>{{userName[1]}}</text>
+                    <image class='player3_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player3_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p33' src="/assets/images/touxiang3.jpg">
-                        <text class='p33text'>{{userName[2]}}</text>
+                    <image class='player3_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player3_3_name'>{{userName[2]}}</text>
                     </image>
                   
                     <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
@@ -186,30 +186,30 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                    
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='finish'>查看结果</button>
                 </view>
             </view>
-            <view class='finallyRank' wx:if="{{p==0}}">
-                <view class='ranktitle'>
+            <view class='finallydetermine' wx:if="{{p==0}}">
+                <view class='determinetitle'>
                     <text class='title1'>玩家</text>
                     <text class='title2'>成绩</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
-                    <text class='rank_1'>{{rank1}}</text>
+                    <text class='determine_1'>{{determine1}}</text>
                     <text class='score_1'>{{score1}}</text>
                     <text class='name_2'>{{userName[1]}}</text>
-                    <text class='rank_2'>{{rank2}}</text>
+                    <text class='determine_2'>{{determine2}}</text>
                     <text class='score_2'>{{score2}}</text>
                     <text class='name_3'>{{userName[2]}}</text>
-                    <text class='rank_3'>{{rank3}}</text>
+                    <text class='determine_3'>{{determine3}}</text>
                     <text class='score_3'>{{score3}}</text>
                 </view>
                 <navigator url="/pages/dating_duoren/dating_duoren">
@@ -222,17 +222,17 @@
         <view class='threePeople' wx:if="{{num=='4人'}}">
             <view wx:if="{{p==1}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p41' src="/assets/images/touxiang.jpg">
-                        <text class='p41text'>{{userName[0]}}</text>
+                    <image class='player4_1' src="/assets/images/touxiang.jpg">
+                        <text class='player4_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p42' src="/assets/images/touxiang2.jpg">
-                        <text class='p42text'>{{userName[1]}}</text>
+                    <image class='player4_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player4_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p43' src="/assets/images/touxiang3.jpg">
-                        <text class='p43text'>{{userName[2]}}</text>
+                    <image class='player4_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player4_3_name'>{{userName[2]}}</text>
                     </image>
-                    <image class='p44' src="/assets/images/touxiang4.jpg">
-                        <text class='p44text'>{{userName[2]}}</text>
+                    <image class='player4_4' src="/assets/images/touxiang4.jpg">
+                        <text class='player4_4_name'>{{userName[2]}}</text>
                     </image>
                     
                     <button class='press' bindtap='click1'>请{{userName[p-1]}}点击投掷</button>
@@ -244,29 +244,29 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                     
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='next2'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==2}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p41' src="/assets/images/touxiang.jpg">
-                        <text class='p41text'>{{userName[0]}}</text>
+                    <image class='player4_1' src="/assets/images/touxiang.jpg">
+                        <text class='player4_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p42' src="/assets/images/touxiang2.jpg">
-                        <text class='p42text'>{{userName[1]}}</text>
+                    <image class='player4_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player4_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p43' src="/assets/images/touxiang3.jpg">
-                        <text class='p43text'>{{userName[2]}}</text>
+                    <image class='player4_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player4_3_name'>{{userName[2]}}</text>
                     </image>
-                    <image class='p44' src="/assets/images/touxiang4.jpg">
-                        <text class='p44text'>{{userName[2]}}</text>
+                    <image class='player4_4' src="/assets/images/touxiang4.jpg">
+                        <text class='player4_4_name'>{{userName[2]}}</text>
                     </image>
                     
                     <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
@@ -278,29 +278,29 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                     
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='next3'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==3}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p41' src="/assets/images/touxiang.jpg">
-                        <text class='p41text'>{{userName[0]}}</text>
+                    <image class='player4_1' src="/assets/images/touxiang.jpg">
+                        <text class='player4_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p42' src="/assets/images/touxiang2.jpg">
-                        <text class='p42text'>{{userName[1]}}</text>
+                    <image class='player4_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player4_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p43' src="/assets/images/touxiang3.jpg">
-                        <text class='p43text'>{{userName[2]}}</text>
+                    <image class='player4_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player4_3_name'>{{userName[2]}}</text>
                     </image>
-                    <image class='p44' src="/assets/images/touxiang4.jpg">
-                        <text class='p44text'>{{userName[2]}}</text>
+                    <image class='player4_4' src="/assets/images/touxiang4.jpg">
+                        <text class='player4_4_name'>{{userName[2]}}</text>
                     </image>
                     
                     <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
@@ -312,29 +312,29 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                     
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='next4'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==4}}">
                 <view class='start' wx:if="{{statu==1}}">
-                    <image class='p41' src="/assets/images/touxiang.jpg">
-                        <text class='p41text'>{{userName[0]}}</text>
+                    <image class='player4_1' src="/assets/images/touxiang.jpg">
+                        <text class='player4_1_name'>{{userName[0]}}</text>
                     </image>
-                    <image class='p42' src="/assets/images/touxiang2.jpg">
-                        <text class='p42text'>{{userName[1]}}</text>
+                    <image class='player4_2' src="/assets/images/touxiang2.jpg">
+                        <text class='player4_2_name'>{{userName[1]}}</text>
                     </image>
-                    <image class='p43' src="/assets/images/touxiang3.jpg">
-                        <text class='p43text'>{{userName[2]}}</text>
+                    <image class='player4_3' src="/assets/images/touxiang3.jpg">
+                        <text class='player4_3_name'>{{userName[2]}}</text>
                     </image>
-                    <image class='p44' src="/assets/images/touxiang4.jpg">
-                        <text class='p44text'>{{userName[3]}}</text>
+                    <image class='player4_4' src="/assets/images/touxiang4.jpg">
+                        <text class='player4_4_name'>{{userName[3]}}</text>
                     </image>
                    
                     <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
@@ -346,33 +346,33 @@
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                   
-                    <image class='img1' src="{{dicelist[0]}}"></image>
-                    <image class='img2' src="{{dicelist[1]}}"></image>
-                    <image class='img3' src="{{dicelist[2]}}"></image>
-                    <image class='img4' src="{{dicelist[3]}}"></image>
-                    <image class='img5' src="{{dicelist[4]}}"></image>
-                    <image class='img6' src="{{dicelist[5]}}"></image>
-                    <view class='rank'>{{rank}}</view>
+                    <image class='p1' src="{{dicelist[0]}}"></image>
+                    <image class='p2' src="{{dicelist[1]}}"></image>
+                    <image class='p3' src="{{dicelist[2]}}"></image>
+                    <image class='p4' src="{{dicelist[3]}}"></image>
+                    <image class='p5' src="{{dicelist[4]}}"></image>
+                    <image class='p6' src="{{dicelist[5]}}"></image>
+                    <view class='determine'>{{determine}}</view>
                     <button class='press' bindtap='finish'>查看结果</button>
                 </view>
             </view>
-            <view class='finallyRank' wx:if="{{p==0}}">
-                <view class='ranktitle'>
+            <view class='finallydetermine' wx:if="{{p==0}}">
+                <view class='determinetitle'>
                     <text class='title1'>玩家</text>
                     <text class='title2'>成绩</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
-                    <text class='rank_1'>{{rank1}}</text>
+                    <text class='determine_1'>{{determine1}}</text>
                     <text class='score_1'>{{score1}}</text>
                     <text class='name_2'>{{userName[1]}}</text>
-                    <text class='rank_2'>{{rank2}}</text>
+                    <text class='determine_2'>{{determine2}}</text>
                     <text class='score_2'>{{score2}}</text>
                     <text class='name_3'>{{userName[2]}}</text>
-                    <text class='rank_3'>{{rank3}}</text>
+                    <text class='determine_3'>{{determine3}}</text>
                     <text class='score_3'>{{score3}}</text>
                     <text class='name_4'>{{userName[3]}}</text>
-                    <text class='rank_4'>{{rank4}}</text>
+                    <text class='determine_4'>{{determine4}}</text>
                     <text class='score_4'>{{score4}}</text>
                 </view>
                 <navigator url="/pages/dating_duoren/dating_duoren">

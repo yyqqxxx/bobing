@@ -242,7 +242,7 @@ color: #fefeae;
 background-color: var(--redColor);
 border: 3rpx solid var(--yellowColor);
 }
-.rank{
+.determine{
 position: fixed;
 margin: 0 5%;
 top: 100rpx;
@@ -255,7 +255,7 @@ margin-top: 100rpx;
 color: #fefeaf;
 font-size: 90rpx;
 }
-.img1{
+.p1{
   position: fixed;
   margin: 0 5%;
   top: 150rpx;
@@ -268,7 +268,7 @@ font-size: 90rpx;
   height: 110rpx;
   width:110rpx;
 }
-.img2{
+.p2{
   position: fixed;
   margin: 0 5%;
   top: 150rpx;
@@ -281,7 +281,7 @@ font-size: 90rpx;
   height: 110rpx;
   width:110rpx;
 }
-.img3{
+.p3{
   position: fixed;
   margin: 0 5%;
   top: 150rpx;
@@ -294,7 +294,7 @@ font-size: 90rpx;
   height: 110rpx;
   width:110rpx;
 }
-.img4{
+.p4{
   position: fixed;
   margin: 0 5%;
   top: 270rpx;
@@ -307,7 +307,7 @@ font-size: 90rpx;
   height: 110rpx;
   width:110rpx;
 }
-.img5{
+.p5{
   position: fixed;
   margin: 0 5%;
   top: 270rpx;
@@ -320,7 +320,7 @@ font-size: 90rpx;
   height: 110rpx;
   width:110rpx;
 }
-.img6{
+.p6{
   position: fixed;
   margin: 0 5%;
   top: 270rpx;
@@ -333,7 +333,7 @@ font-size: 90rpx;
   height: 110rpx;
   width:110rpx;
 }
-.p21{
+.player2_1{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -348,7 +348,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p21text{
+.player2_1_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -362,7 +362,7 @@ color: #fefeae;
 font-size: medium;
 }
 
-.p22{
+.player2_2{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -377,7 +377,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p22text{
+.player2_2_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -392,7 +392,7 @@ font-size: medium;
 }
 
 
-.p31{
+.player3_1{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -407,7 +407,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p31text{
+.player3_1_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -421,7 +421,7 @@ color: #fefeae;
 font-size: medium;
 }
 
-.p32{
+.player3_2{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -436,7 +436,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p32text{
+.player3_2_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -449,7 +449,7 @@ margin-top: 200rpx;
 color: #fefeae;
 font-size: medium;
 }
-.p33{
+.player3_3{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -464,7 +464,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p33text{
+.player3_3_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -479,7 +479,7 @@ font-size: medium;
 }
 
 
-.p41{
+.player4_1{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -494,7 +494,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p41text{
+.player4_1_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -508,7 +508,7 @@ color: #fefeae;
 font-size: medium;
 }
 
-.p42{
+.player4_2{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -523,7 +523,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p42text{
+.player4_2_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -536,7 +536,7 @@ margin-top: 200rpx;
 color: #fefeae;
 font-size: medium;
 }
-.p43{
+.player4_3{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -551,7 +551,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p43text{
+.player4_3_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -565,7 +565,7 @@ color: #fefeae;
 font-size: medium;
 }
 
-.p44{
+.player4_4{
 position: fixed;
 margin: 0 5%;
 top: -150rpx;
@@ -580,7 +580,7 @@ width:110rpx;
 border: 2px dashed #fefeaf;
 border-radius: 50%;
 }
-.p44text{
+.player4_4_name{
 position: fixed;
 margin: 0 5%;
 top: -50rpx;
@@ -595,7 +595,7 @@ font-size: medium;
 }
 
 
-.finallyRank{
+.finallydetermine{
 position: fixed;
 margin: 0 5%;
 left: 15rpx;
@@ -609,7 +609,7 @@ width:650rpx;
 background:rgba(118, 87, 255, 0.5);
 border-radius: 15%;
 }
-.ranktitle{
+.determinetitle{
 position: fixed;
 margin: 0 5%;
 top:125rpx;
@@ -662,7 +662,7 @@ justify-content: center;
 font-size: medium;
 color: #fefeae;
 }
-.rank_1{
+.determine_1{
 position: fixed;
 margin: 0 5%;
 top:300rpx;
@@ -688,7 +688,7 @@ justify-content: center;
 font-size: medium;
 color: #fefeae;
 }
-.rank_2{
+.determine_2{
 position: fixed;
 margin: 0 5%;
 top:400rpx;
@@ -713,7 +713,7 @@ justify-content: center;
 font-size: medium;
 color: #fefeae;
 }
-.rank_3{
+.determine_3{
 position: fixed;
 margin: 0 5%;
 top:500rpx;
@@ -738,7 +738,7 @@ justify-content: center;
 font-size: medium;
 color: #fefeae;
 }
-.rank_4{
+.determine_4{
 position: fixed;
 margin: 0 5%;
 top:600rpx;

@@ -1,6 +1,6 @@
 var num = ""
 var p=1
-var rank = ""
+var determine = ""
 
 Page({
     /**
@@ -9,11 +9,11 @@ Page({
     data: {
       p:1, //第几个玩家在游戏中  0表示都投掷完毕
       statu:0, //状态：0创建房间界面，1未开始，2投掷中, 3出结果
-      resultList:[],
-      rank:"",//成绩
-      rank1:"",
-      rank2:"",
-      rank3:"",
+      result:[],
+      determine:"",//成绩
+      determine1:"",
+      determine2:"",
+      determine3:"",
       score1:"",
       score2:"",
       score3:"",
@@ -91,7 +91,7 @@ Page({
         console.log("点击投掷")
         this.setData({
           statu: 2,
-          finallyRank:[]
+          finallydetermine:[]
         })
     },
 
@@ -119,10 +119,10 @@ Page({
          countList[t]++;
         }
       this.setData({
-        resultList:list
+        result:list
       })
       for(var i=0;i<6;i++){
-        var dicesrc = "/assets/images/dice/d" + this.data.resultList[i] + ".png"
+        var dicesrc = "/assets/images/dice/d" + this.data.result[i] + ".png"
         listsrc.push(dicesrc)
       }
       this.setData({
@@ -131,85 +131,85 @@ Page({
       var flag = 0;
       if ( countList[1] == 1 &&  countList[2] == 1 &&  countList[3] == 1 &&  countList[4] == 1 &&  countList[5]== 1 &&  countList[6] == 1) {
         this.setData({
-          rank: "对堂！",
+          determine: "对堂！",
         })
         flag = 1
       } else {
         if ( countList[1] == 6){
           this.setData({
-            rank:"遍地锦！",
+            determine:"遍地锦！",
           })
         }
         if ( countList[4]== 1) {
           this.setData({
-            rank: "一秀！",
+            determine: "一秀！",
           })
           flag = 1
         }
         if ( countList[4]== 2) {
           this.setData({
-            rank: "二举！",
+            determine: "二举！",
           })
           flag = 1
         }
         if ( countList[4] == 3) {
           this.setData({
-            rank: "三红！",
+            determine: "三红！",
           })
           flag = 1
         }
         if ( countList[4] == 5) {
           this.setData({
-            rank: "五王！",
+            determine: "五王！",
           })
           flag = 1
         }
         if ( countList[4] == 4) {
           if ( countList[1] == 2) {
             this.setData({
-              rank: "状元插金花！",
+              determine: "状元插金花！",
             })
             flag = 1
           } else {
             this.setData({
-              rank: "状元！",
+              determine: "状元！",
             })
             flag = 1
           }
         }
         if ( countList[4] == 6) {
           this.setData({
-            rank: "六杯红！",
+            determine: "六杯红！",
           })
           flag = 1
         }
         if ( countList[1] == 4 ||  countList[2]== 4 || countList[3] == 4  ||  countList[5] == 4 ||  countList[6] == 4) {
           this.setData({
-            rank: "四进！",
+            determine: "四进！",
           })
           flag = 1
         }
         if ( countList[1] == 5 || countList[2] == 5 ||  countList[3] == 5  ||  countList[5] == 5 || countList[6] == 5) {
           this.setData({
-            rank: "五子登科！",
+            determine: "五子登科！",
           })
           flag = 1
         }
         if ( countList[2] == 6 ||  countList[3] == 6  || countList[5] == 6 ||  countList[6]== 6) {
           this.setData({
-            rank: "六杯黑！",
+            determine: "六杯黑！",
           })
           flag = 1
         }
       }
       if (flag == 0) {
         this.setData({
-          rank: "倒霉蛋！",
+          determine: "倒霉蛋！",
         })
       }
-      // console.log(this.data.resultList)
-      console.log("输出投掷结果:",this.data.rank)
-      rank=this.data.rank
+      // console.log(this.data.result)
+      console.log("输出投掷结果:",this.data.determine)
+      determine=this.data.determine
     },
 
     click3(){
@@ -222,21 +222,21 @@ Page({
     this.setData({
       p:2,
       statu:1,
-      rank1:rank,
+      determine1:determine,
     })
   },
   next3(){ //轮到玩家3
     this.setData({
       p:3,
       statu:1,
-      rank2:rank,
+      determine2:determine,
     })
   },
   next4(){//轮到玩家4
     this.setData({
       p:4,
       statu:1,
-      rank3:rank,
+      determine3:determine,
     })
   },
 
@@ -246,17 +246,17 @@ Page({
     })
     if(num=='2人'){
       this.setData({
-        rank2:rank,
+        determine2:determine,
       })
     }
     if(num=='3人'){
       this.setData({
-        rank3:rank,
+        determine3:determine,
       })
     }
     if(num=='4人'){
       this.setData({
-        rank4:rank,
+        determine4:determine,
       })
     }
     console.log("排名完成")

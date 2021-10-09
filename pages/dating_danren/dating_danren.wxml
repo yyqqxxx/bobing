@@ -4,12 +4,12 @@
         <image class='touxiang' src="/assets/images/touxiang.jpg"></image>
         <image class="press"bindtap='click' src="/assets/images/dianji.png"></image>
         <image class='dongtu' src="{{tupian}}"></image>
-        <image class='yi' src="{{dicelist[0]}}"></image>
-        <image class='er' src="{{dicelist[1]}}"></image>
-        <image class='san' src="{{dicelist[2]}}"></image>
-        <image class='si' src="{{dicelist[3]}}"></image>
-        <image class='wu' src="{{dicelist[4]}}"></image>
-        <image class='liu' src="{{dicelist[5]}}"></image>
-        <view class='rank'>{{rank}}</view>
+        <image class='p1' src="{{dicelist[0]}}"></image>
+        <image class='p2' src="{{dicelist[1]}}"></image>
+        <image class='p3' src="{{dicelist[2]}}"></image>
+        <image class='p4' src="{{dicelist[3]}}"></image>
+        <image class='p5' src="{{dicelist[4]}}"></image>
+        <image class='p6' src="{{dicelist[5]}}"></image>
+        <view class='determine'>{{determine}}</view>
     </other-widget> <!-- other widget希望是放在背景图片之上的 -->
 </view>

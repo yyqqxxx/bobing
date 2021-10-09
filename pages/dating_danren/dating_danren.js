@@ -3,8 +3,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    resultList: [],
-    rank: "", //判定的结果
+    result: [],
+    determine: "", //判定的结果
     tupian: [],
     // 骰子图片地址
     dices: [
@@ -33,7 +33,7 @@ Page({
     this.setData({
       tupian: "/assets/images/dice/dongtu.gif",
       dicelist: [],
-      rank: ""
+      determine: ""
     })
     setTimeout(() => {
       this.setData({
@@ -60,10 +60,10 @@ Page({
   
     }
     this.setData({
-      resultList: list
+      result: list
     })
     for (var i = 0; i < 6; i++) {
-      var dicesrc = "/assets/images/dice/d" + this.data.resultList[i] + ".png"
+      var dicesrc = "/assets/images/dice/d" + this.data.result[i] + ".png"
       listsrc.push(dicesrc)
     }
     this.setData({
@@ -72,83 +72,83 @@ Page({
     var flag = 0;
     if ( countList[1] == 1 &&  countList[2] == 1 &&  countList[3] == 1 &&  countList[4] == 1 &&  countList[5]== 1 &&  countList[6] == 1) {
       this.setData({
-        rank: "对堂！",
+        determine: "对堂！",
       })
       flag = 1
     } else {
       if ( countList[1] == 6){
         this.setData({
-          rank:"遍地锦！",
+          determine:"遍地锦！",
         })
       }
       if ( countList[4]== 1) {
         this.setData({
-          rank: "一秀！",
+          determine: "一秀！",
         })
         flag = 1
       }
       if ( countList[4]== 2) {
         this.setData({
-          rank: "二举！",
+          determine: "二举！",
         })
         flag = 1
       }
       if ( countList[4] == 3) {
         this.setData({
-          rank: "三红！",
+          determine: "三红！",
         })
         flag = 1
       }
       if ( countList[4] == 5) {
         this.setData({
-          rank: "五王！",
+          determine: "五王！",
         })
         flag = 1
       }
       if ( countList[4] == 4) {
         if ( countList[1] == 2) {
           this.setData({
-            rank: "状元插金花！",
+            determine: "状元插金花！",
           })
           flag = 1
         } else {
           this.setData({
-            rank: "状元！",
+            determine: "状元！",
           })
           flag = 1
         }
       }
       if ( countList[4] == 6) {
         this.setData({
-          rank: "六杯红！",
+          determine: "六杯红！",
         })
         flag = 1
       }
       if ( countList[1] == 4 ||  countList[2]== 4 || countList[3] == 4  ||  countList[5] == 4 ||  countList[6] == 4) {
         this.setData({
-          rank: "四进！",
+          determine: "四进！",
         })
         flag = 1
       }
       if ( countList[1] == 5 || countList[2] == 5 ||  countList[3] == 5  ||  countList[5] == 5 || countList[6] == 5) {
         this.setData({
-          rank: "五子登科！",
+          determine: "五子登科！",
         })
         flag = 1
       }
       if ( countList[2] == 6 ||  countList[3] == 6  || countList[5] == 6 ||  countList[6]== 6) {
         this.setData({
-          rank: "六杯黑！",
+          determine: "六杯黑！",
         })
         flag = 1
       }
     }
     if (flag == 0) {
       this.setData({
-        rank: "可惜",
+        determine: "可惜",
       })
     }
-    console.log("输出投掷结果:", this.data.rank)
+    console.log("输出投掷结果:", this.data.determine)
   },
 
   /**
