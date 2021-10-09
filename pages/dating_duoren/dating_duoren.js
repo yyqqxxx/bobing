@@ -239,7 +239,7 @@ Page({
     }
     if(flag==0){
       this.setData({
-        rank:"再接再厉哦",
+        rank:"可惜",
         score:"+0"
       })
     }

@@ -242,95 +242,95 @@ background-color: var(--redColor);
 border: 3rpx solid var(--yellowColor);
 }
 .rank{
-position: fixed;
-margin: 0 5%;
-top: 70rpx;
-left: 200rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-color: #fefeae;
-font-size: 60rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 100rpx;
+  left: 250rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 100rpx;
+  color: #fefeaf;
+  font-size: 90rpx;
 }
 .img1{
-position: fixed;
-margin: 0 5%;
-top: 240rpx;
-left: 170rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-height: 110rpx;
-width:110rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 150rpx;
+  left: 170rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 200rpx;
+  height: 110rpx;
+  width:110rpx;
 }
 .img2{
-position: fixed;
-margin: 0 5%;
-top: 300rpx;
-left: 280rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-height: 110rpx;
-width:110rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 150rpx;
+  left: 280rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 200rpx;
+  height: 110rpx;
+  width:110rpx;
 }
 .img3{
-position: fixed;
-margin: 0 5%;
-top: 270rpx;
-left: 400rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-height: 110rpx;
-width:110rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 150rpx;
+  left: 390rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 200rpx;
+  height: 110rpx;
+  width:110rpx;
 }
 .img4{
-position: fixed;
-margin: 0 5%;
-top: 360rpx;
-left: 110rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-height: 110rpx;
-width:110rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 270rpx;
+  left: 170rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 200rpx;
+  height: 110rpx;
+  width:110rpx;
 }
 .img5{
-position: fixed;
-margin: 0 5%;
-top: 500rpx;
-left: 250rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-height: 110rpx;
-width:110rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 270rpx;
+  left: 280rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 200rpx;
+  height: 110rpx;
+  width:110rpx;
 }
 .img6{
-position: fixed;
-margin: 0 5%;
-top: 460rpx;
-left: 400rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-height: 110rpx;
-width:110rpx;
+  position: fixed;
+  margin: 0 5%;
+  top: 270rpx;
+  left: 390rpx;
+  display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+  flex-direction: row;/* 设置一个大盒子内容垂直排列*/
+  align-items: center;/* 设置一个大盒子内容居中排列*/
+  justify-content: center;
+  margin-top: 200rpx;
+  height: 110rpx;
+  width:110rpx;
 }
 .p21{
 position: fixed;
@@ -587,7 +587,7 @@ justify-content: center;
 margin-top: 130rpx;
 height: 1000rpx;
 width:650rpx;
-background:rgba(246, 255, 162, 0.5);
+background:rgba(118, 87, 255, 0.5);
 }
 .ranktitle{
 position: fixed;
@@ -774,20 +774,7 @@ font-size: medium;
 .Again{
 position: fixed;
 margin: 0 5%;
-bottom: 150rpx;
-left: 400rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-margin-top: 200rpx;
-color: #fefeae;
-font-size: medium;
-}
-.Goto{
-position: fixed;
-margin: 0 5%;
-bottom: 100rpx;
+bottom: 250rpx;
 left: 400rpx;
 display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
 flex-direction: row;/* 设置一个大盒子内容垂直排列*/

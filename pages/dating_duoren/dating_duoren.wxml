@@ -104,7 +104,6 @@
                 <navigator url="/pages/dating_duoren/dating_duoren">
                     <view class="Again">点击重来>></view>
                 </navigator>
-                <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>
 
@@ -224,7 +223,6 @@
                 <navigator url="/pages/dating_duoren/dating_duoren">
                     <view class="Again">点击重来>></view>
                 </navigator>
-                <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>
 
@@ -389,7 +387,6 @@
                 <navigator url="/pages/dating_duoren/dating_duoren">
                     <view class="Again">点击重来>></view>
                 </navigator>
-                <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>
     </other-widget> <!-- other widget希望是放在背景图片之上的 -->
