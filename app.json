@@ -4,7 +4,8 @@
     "pages/bbquan/bbquan",
     "pages/wode/wode",
     "pages/dating_duoren/dating_duoren",
-    "pages/dating_danren/dating_danren"
+    "pages/dating_danren/dating_danren",
+    "pages/dating_guize/dating_guize"
   ],
   "window": {
     "backgroundTextStyle": "light",

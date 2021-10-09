@@ -35,6 +35,18 @@
           "pathName": "pages/dating_danren/dating_danren",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "规则",
+          "pathName": "pages/dating_guize/dating_guize",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "多人",
+          "pathName": "pages/dating_duoren/dating_duoren",
+          "query": "",
+          "scene": null
         }
       ]
     }

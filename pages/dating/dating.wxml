@@ -2,6 +2,12 @@
 <view class="container">
     <image class="background" src="/assets/images/background.jpg"></image>
     <other-widget class="other-widget">
+    <!--规则-->
+    <view class="gorule">
+    <navigator url='/pages/dating_guize/dating_guize'>
+    <image src='/assets/images/guize.png' class='rule'></image>
+    </navigator>
+    </view>
         <view class="goDuoren">
             <navigator url='/pages/dating_duoren/dating_duoren'>
                  <image src='/assets/images/duoren.png' class='duo'></image>
