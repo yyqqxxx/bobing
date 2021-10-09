@@ -1,5 +1,3 @@
-// pages/create/create.js
-var app = getApp()
 var num = ""
 var p=1
 var rank = ""

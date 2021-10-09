@@ -34,12 +34,12 @@
                         <text class='p22text'>{{userName[1]}}</text>
                     </image>
                     
-                    <button class='press' bindtap='click1'>请玩家{{userName[p-1]}}点击投掷</button>
+                    <button class='press' bindtap='click1'>请{{userName[p-1]}}点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                   
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                    
@@ -50,7 +50,7 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='next2'>点击轮到下一位</button>
+                    <button class='press' bindtap='next2'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==2}}">
@@ -62,12 +62,12 @@
                         <text class='p22text'>{{userName[1]}}</text>
                     </image>
                    
-                    <button class='press' bindtap='click1'>请玩家 {{userName[p-1]}} 点击投掷</button>
+                    <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                    
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                    
@@ -78,13 +78,13 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='finish'>点击生成游戏结果</button>
+                    <button class='press' bindtap='finish'>查看结果</button>
                 </view>
             </view>
             <view class='finallyRank' wx:if="{{p==0}}">
                 <view class='ranktitle'>
-                    <text class='title1'>用户</text>
-                    <text class='title2'>结果</text>
+                    <text class='title1'>玩家</text>
+                    <text class='title2'>成绩</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
@@ -95,7 +95,7 @@
                     <text class='score_2'>{{score2}}</text>
                 </view>
                 <navigator url="/pages/dating_duoren/dating_duoren">
-                    <view class="Again">点击重来>></view>
+                    <view class="Again">重新开始</view>
                 </navigator>
             </view>
         </view>
@@ -115,12 +115,12 @@
                     </image>
 
                    
-                    <button class='press' bindtap='click1'>请玩家{{userName[p-1]}}点击投掷</button>
+                    <button class='press' bindtap='click1'>请{{userName[p-1]}}点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                  
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                 
@@ -131,7 +131,7 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='next2'>点击轮到下一位</button>
+                    <button class='press' bindtap='next2'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==2}}">
@@ -146,12 +146,12 @@
                         <text class='p33text'>{{userName[2]}}</text>
                     </image>
                   
-                    <button class='press' bindtap='click1'>请玩家 {{userName[p-1]}} 点击投掷</button>
+                    <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                   
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                   
@@ -162,7 +162,7 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='next3'>点击轮到下一位</button>
+                    <button class='press' bindtap='next3'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==3}}">
@@ -177,12 +177,12 @@
                         <text class='p33text'>{{userName[2]}}</text>
                     </image>
                   
-                    <button class='press' bindtap='click1'>请玩家 {{userName[p-1]}} 点击投掷</button>
+                    <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                    
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                    
@@ -193,13 +193,13 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='finish'>点击生成游戏结果</button>
+                    <button class='press' bindtap='finish'>查看结果</button>
                 </view>
             </view>
             <view class='finallyRank' wx:if="{{p==0}}">
                 <view class='ranktitle'>
-                    <text class='title1'>用户</text>
-                    <text class='title2'>结果</text>
+                    <text class='title1'>玩家</text>
+                    <text class='title2'>成绩</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
@@ -213,7 +213,7 @@
                     <text class='score_3'>{{score3}}</text>
                 </view>
                 <navigator url="/pages/dating_duoren/dating_duoren">
-                    <view class="Again">点击重来>></view>
+                    <view class="Again">点击重来</view>
                 </navigator>
             </view>
         </view>
@@ -235,12 +235,12 @@
                         <text class='p44text'>{{userName[2]}}</text>
                     </image>
                     
-                    <button class='press' bindtap='click1'>请玩家{{userName[p-1]}}点击投掷</button>
+                    <button class='press' bindtap='click1'>请{{userName[p-1]}}点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                     
@@ -251,7 +251,7 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='next2'>点击轮到下一位</button>
+                    <button class='press' bindtap='next2'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==2}}">
@@ -269,12 +269,12 @@
                         <text class='p44text'>{{userName[2]}}</text>
                     </image>
                     
-                    <button class='press' bindtap='click1'>请玩家 {{userName[p-1]}} 点击投掷</button>
+                    <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                     
@@ -285,7 +285,7 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='next3'>点击轮到下一位</button>
+                    <button class='press' bindtap='next3'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==3}}">
@@ -303,12 +303,12 @@
                         <text class='p44text'>{{userName[2]}}</text>
                     </image>
                     
-                    <button class='press' bindtap='click1'>请玩家 {{userName[p-1]}} 点击投掷</button>
+                    <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                     
@@ -319,7 +319,7 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='next4'>点击轮到下一位</button>
+                    <button class='press' bindtap='next4'>下一位</button>
                 </view>
             </view>
             <view wx:if="{{p==4}}">
@@ -337,12 +337,12 @@
                         <text class='p44text'>{{userName[3]}}</text>
                     </image>
                    
-                    <button class='press' bindtap='click1'>请玩家 {{userName[p-1]}} 点击投掷</button>
+                    <button class='press' bindtap='click1'>请 {{userName[p-1]}} 点击投掷</button>
                 </view>
                 <view class='shake' wx:if="{{statu==2}}">
                     
                     <image class='playDice' src="/assets/images/dice/dongtu.gif"></image>
-                    <button class='press' bindtap='click2'>点击停止投掷</button>
+                    <button class='press' bindtap='click2'>停！</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
                   
@@ -353,13 +353,13 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
-                    <button class='press' bindtap='finish'>点击生成游戏结果</button>
+                    <button class='press' bindtap='finish'>查看结果</button>
                 </view>
             </view>
             <view class='finallyRank' wx:if="{{p==0}}">
                 <view class='ranktitle'>
-                    <text class='title1'>用户</text>
-                    <text class='title2'>结果</text>
+                    <text class='title1'>玩家</text>
+                    <text class='title2'>成绩</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
@@ -376,7 +376,7 @@
                     <text class='score_4'>{{score4}}</text>
                 </view>
                 <navigator url="/pages/dating_duoren/dating_duoren">
-                    <view class="Again">点击重来>></view>
+                    <view class="Again">重新开始</view>
                 </navigator>
             </view>
         </view>

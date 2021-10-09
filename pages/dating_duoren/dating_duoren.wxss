@@ -80,7 +80,7 @@ color: #fefeae;
   position: fixed;
   margin: 0 5%;
   top: 450rpx;
-  left: 160rpx;
+  left: 220rpx;
   display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
   flex-direction: row;/* 设置一个大盒子内容垂直排列*/
   align-items: center;/* 设置一个大盒子内容居中排列*/
@@ -601,7 +601,7 @@ align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 height: 100rpx;
 width:650rpx;
-background:rgba(238, 205, 104, 0.8);
+background:#fefeaf;
 }
 .title1{
 position: fixed;
@@ -613,6 +613,8 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: large;
+color: #1b0e3e;
+font-weight: bold;
 }
 .title2{
 position: fixed;
@@ -624,17 +626,8 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: large;
-}
-.title3{
-position: fixed;
-margin: 0 5%;
-top:150rpx;
-left:500rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-font-size: large;
+color: #1b0e3e;
+font-weight: bold;
 }
 
 
@@ -648,6 +641,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
+color: #fefeae;
 }
 .rank_1{
 position: fixed;
@@ -659,17 +653,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
-}
-.score_1{
-position: fixed;
-margin: 0 5%;
-top:300rpx;
-left:500rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-font-size: medium;
+color: #fefeae;
 }
 
 
@@ -683,6 +667,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
+color: #fefeae;
 }
 .rank_2{
 position: fixed;
@@ -694,17 +679,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
-}
-.score_2{
-position: fixed;
-margin: 0 5%;
-top:400rpx;
-left:500rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-font-size: medium;
+color: #fefeae;
 }
 
 .name_3{
@@ -717,6 +692,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
+color: #fefeae;
 }
 .rank_3{
 position: fixed;
@@ -728,18 +704,9 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
+color: #fefeae;
 }
-.score_3{
-position: fixed;
-margin: 0 5%;
-top:500rpx;
-left:500rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-font-size: medium;
-}
+
 .name_4{
 position: fixed;
 margin: 0 5%;
@@ -750,6 +717,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
+color: #fefeae;
 }
 .rank_4{
 position: fixed;
@@ -761,28 +729,20 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 font-size: medium;
+color: #fefeae;
 }
-.score_4{
-position: fixed;
-margin: 0 5%;
-top:600rpx;
-left:500rpx;
-display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
-flex-direction: row;/* 设置一个大盒子内容垂直排列*/
-align-items: center;/* 设置一个大盒子内容居中排列*/
-justify-content: center;
-font-size: medium;
-}
+
 .Again{
 position: fixed;
 margin: 0 5%;
-bottom: 250rpx;
-left: 400rpx;
+bottom: 300rpx;
+left: 150rpx;
 display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
 flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
 color: #fefeae;
-font-size: medium;
+font-size: 25px;
+font-weight: bold;
 }
