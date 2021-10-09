@@ -1,3 +1,10 @@
-<view class="my">
-<image src="/assets/images/touxiang.jpg"></image>
+<view class="container">
+    <image class="background" src="/assets/images/background.jpg"></image>
+    <other-widget class="other-widget">
+    <view>
+    <image class="touxiang" src="/assets/images/touxiang.jpg"></image>
+    </view>
+    <view class="name">草世木牧牛郎</view>
+    <view class="qianming">个性签名..</view>
+    </other-widget>  <!--图层高 -->
 </view>

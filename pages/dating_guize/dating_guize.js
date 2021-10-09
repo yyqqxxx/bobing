@@ -1,4 +1,4 @@
-// pages/duoren/duoren.js
+// pages/dating_guize/dating_guize.js
 Page({
 
   /**

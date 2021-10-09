@@ -1,0 +1,15 @@
+<view class="container">
+    <image class="background" src="/assets/images/background.jpg"></image>
+    <other-widget class="other-widget">
+        <image class='touxiang' src="/assets/images/touxiang.jpg"></image>
+        <image class="press"bindtap='click' src="/assets/images/dianji.png"></image>
+        <image class='playDice' src="{{img}}"></image>
+        <image class='img1' src="{{dicelist[0]}}"></image>
+        <image class='img2' src="{{dicelist[1]}}"></image>
+        <image class='img3' src="{{dicelist[2]}}"></image>
+        <image class='img4' src="{{dicelist[3]}}"></image>
+        <image class='img5' src="{{dicelist[4]}}"></image>
+        <image class='img6' src="{{dicelist[5]}}"></image>
+        <view class='rank'>{{rank}}</view>
+    </other-widget> <!-- other widget希望是放在背景图片之上的 -->
+</view>

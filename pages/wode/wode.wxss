@@ -1,8 +1,30 @@
-.my{
-  background-color:#1b0e3e ;
-}
-.my image{
-  height: 80px;
-  width: 80px;
+.touxiang{
+  position:fixed;
+  left: 30rpx;
+  bottom: 880rpx;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
+}
+.name{
+  left:220rpx;
+  bottom:980rpx;
+  position: fixed;
+  color: #fefeaf;
+  font-weight: bold;
+}
+.qianming{
+  font-size: 13px;
+  left:220rpx;
+  bottom:900rpx;
+  position: fixed;
+  color: #fefeaf;
+}
+.background {
+  bottom: 0rpx;
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
 }

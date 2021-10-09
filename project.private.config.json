@@ -29,6 +29,12 @@
           "pathName": "pages/wode/wode",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "单人",
+          "pathName": "pages/dating_danren/dating_danren",
+          "query": "",
+          "scene": null
         }
       ]
     }

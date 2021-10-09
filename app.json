@@ -3,8 +3,8 @@
     "pages/dating/dating",
     "pages/bbquan/bbquan",
     "pages/wode/wode",
-    "pages/duoren/duoren",
-    "pages/danren/danren"
+    "pages/dating_duoren/dating_duoren",
+    "pages/dating_danren/dating_danren"
   ],
   "window": {
     "backgroundTextStyle": "light",

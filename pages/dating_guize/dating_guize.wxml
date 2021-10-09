@@ -1,0 +1,8 @@
+<!--pages/dating_guize/dating_guize.wxml-->
+<view class="container">
+  <image class="background" src="/assets/images/background.jpg"></image>
+    <other-widget class="other-widget">
+      <image src="/assets/images/jiangli.png" class="guizetu">
+      </image>
+    </other-widget>  <!--图层高 -->
+</view>
