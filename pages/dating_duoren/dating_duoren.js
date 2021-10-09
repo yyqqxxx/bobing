@@ -1,6 +1,5 @@
 // pages/create/create.js
 var app = getApp()
-var roomID = ""
 var num = ""
 var p=1
 var rank = ""
@@ -23,7 +22,6 @@ Page({
       score3:"",
       score4:"",
       select:false,
-      num:'--请选择人数--',
       nums: [
         '2人',
         '3人',
@@ -74,37 +72,26 @@ Page({
     mySelect(e) {
       console.log(e)
       var name = e.currentTarget.dataset.name
-      console.log("选择房间人数",name)
+      console.log("选择人数",name)
       this.setData({
       num: name,
       select: false
       })
       num = name
     },
-    //输入框
-    bindKeyInput: function(e) {
-        this.setData({
-         roomID : e.detail.value
-        })
-        roomID = e.detail.value
-        console.log("输入房间名称",roomID)
-      },
 
       //确定按钮
      click(){
-      console.log("确定房间名称：", roomID)
       console.log("确定房间人数：", num)
-        if(!this.data.roomID){
+        if(!this.data.num){
             this.setData({
-              infoMess:'温馨提示：房间名不能为空！',
+              infoMess:'请选择玩家人数！',
             })
           }else{
             this.setData({
                 infoMess:'',
-                roomID:roomID,
                 statu:1
             })
-            wx.setStorageSync('roomID', num)
             console.log("创建成功！")
             
           }

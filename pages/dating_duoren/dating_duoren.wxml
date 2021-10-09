@@ -2,14 +2,9 @@
     <image class="background"
         src="/assets/images/background.jpg">
     </image>
-    <other-widget class="other-widget">
-        <view class='input_ID'>
-            <input class="input" name="roomID" placeholder-style="font-size:15px" placeholder="请输入房间名称"
-                bindinput="bindKeyInput" />
-        </view>
+    <other-widget class="other-widget">   
         <button class='in' bindtap="click">确定</button>
         <view class='tishi'>{{infoMess}}</view>
-
         <view class='top'>
             <view class='top-selected' bindtap='bindShowMsg'>
                 <image class="xuanren" src="/assets/images/renshu.png"></image>
@@ -28,7 +23,6 @@
 <view class="container2" wx:if="{{statu!=0}}">
     <image class="background" src="/assets/images/background.jpg"></image>
     <other-widget class="other-widget">
-        <view class="result_title">房间ID：{{roomID}}</view>
         <!--两人房间-->
         <view class='twoPeople' wx:if="{{num=='2人'}}">
             <view wx:if="{{p==1}}">
