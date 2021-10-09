@@ -144,6 +144,9 @@ border-radius: 10px;
 color: var(--buleColor);
 border: 4rpx solid var(--yellowColor);
 }
+.top-selected text{
+  color:#fefeae;
+}
 .container2{
 width: 100%;
 height: 1200rpx;
@@ -232,7 +235,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-height: 80rpx;
+height: 100rpx;
 width: 450rpx;
 color: #fefeae;
 background-color: var(--redColor);
@@ -584,7 +587,7 @@ justify-content: center;
 margin-top: 130rpx;
 height: 1000rpx;
 width:650rpx;
-background:rgba(255, 255, 255, 0.5);
+background:rgba(246, 255, 162, 0.5);
 }
 .ranktitle{
 position: fixed;
@@ -778,7 +781,7 @@ flex-direction: row;/* 设置一个大盒子内容垂直排列*/
 align-items: center;/* 设置一个大盒子内容居中排列*/
 justify-content: center;
 margin-top: 200rpx;
-color: var(--yellowColor);
+color: #fefeae;
 font-size: medium;
 }
 .Goto{
