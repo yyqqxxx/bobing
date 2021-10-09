@@ -52,7 +52,6 @@ font-size: small;
 font-weight: 400;
 border-radius: 10px;
 color: #fefeae;
-border: 4rpx solid var(-- yellowColor);
 }
 
 .in{    /*确定按钮*/
@@ -346,6 +345,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p21text{
 position: fixed;
@@ -373,6 +374,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p22text{
 position: fixed;
@@ -401,6 +404,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p31text{
 position: fixed;
@@ -428,6 +433,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p32text{
 position: fixed;
@@ -454,6 +461,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p33text{
 position: fixed;
@@ -482,6 +491,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p41text{
 position: fixed;
@@ -509,6 +520,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p42text{
 position: fixed;
@@ -535,6 +548,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p43text{
 position: fixed;
@@ -562,6 +577,8 @@ justify-content: center;
 margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
+border: 2px dashed #fefeaf;
+border-radius: 50%;
 }
 .p44text{
 position: fixed;
@@ -590,6 +607,7 @@ margin-top: 130rpx;
 height: 1000rpx;
 width:650rpx;
 background:rgba(118, 87, 255, 0.5);
+border-radius: 15%;
 }
 .ranktitle{
 position: fixed;
@@ -602,6 +620,7 @@ justify-content: center;
 height: 100rpx;
 width:650rpx;
 background:#fefeaf;
+border:15% ;
 }
 .title1{
 position: fixed;

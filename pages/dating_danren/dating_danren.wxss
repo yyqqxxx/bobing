@@ -22,7 +22,7 @@ z-index: -1;
   border: 2px dashed #fefeaf;
   box-sizing: border-box;
 }
-.playDice{
+.dongtu{
 position: fixed;
 margin: 0 5%;
 top: 100rpx;
@@ -64,7 +64,7 @@ margin-top: 100rpx;
 color: #fefeaf;
 font-size: 90rpx;
 }
-.img1{
+.yi{
 position: fixed;
 margin: 0 5%;
 top: 150rpx;
@@ -77,7 +77,7 @@ margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
 }
-.img2{
+.er{
 position: fixed;
 margin: 0 5%;
 top: 150rpx;
@@ -90,7 +90,7 @@ margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
 }
-.img3{
+.san{
 position: fixed;
 margin: 0 5%;
 top: 150rpx;
@@ -103,7 +103,7 @@ margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
 }
-.img4{
+.si{
 position: fixed;
 margin: 0 5%;
 top: 270rpx;
@@ -116,7 +116,7 @@ margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
 }
-.img5{
+.wu{
 position: fixed;
 margin: 0 5%;
 top: 270rpx;
@@ -129,7 +129,7 @@ margin-top: 200rpx;
 height: 110rpx;
 width:110rpx;
 }
-.img6{
+.liu{
 position: fixed;
 margin: 0 5%;
 top: 270rpx;

@@ -5,7 +5,7 @@ Page({
   data: {
     resultList: [],
     rank: "", //判定的结果
-    img: [],
+    tupian: [],
     // 骰子图片地址
     dices: [
       '/assets/images/dice/dongtu.gif',
@@ -31,13 +31,13 @@ Page({
   click() {
     console.log("点击投掷")
     this.setData({
-      img: "/assets/images/dice/dongtu.gif",
+      tupian: "/assets/images/dice/dongtu.gif",
       dicelist: [],
       rank: ""
     })
     setTimeout(() => {
       this.setData({
-        img: ""
+        tupian: ""
       })
       this.result()
     }, 2000)//时间延迟
@@ -93,7 +93,7 @@ Page({
         })
         flag = 1
       }
-      if ( countList[3] == 3) {
+      if ( countList[4] == 3) {
         this.setData({
           rank: "三红！",
         })

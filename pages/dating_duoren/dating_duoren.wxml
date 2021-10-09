@@ -3,7 +3,7 @@
         src="/assets/images/background.jpg">
     </image>
     <other-widget class="other-widget">   
-        <button class='in' bindtap="click">确定</button>
+        <button class='in' bindtap="click">开始游戏</button>
         <view class='tishi'>{{infoMess}}</view>
         <view class='top'>
             <view class='top-selected' bindtap='bindShowMsg'>

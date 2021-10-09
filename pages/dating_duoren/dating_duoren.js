@@ -10,11 +10,10 @@ Page({
       p:1, //第几个玩家在游戏中  0表示都投掷完毕
       statu:0, //状态：0创建房间界面，1未开始，2投掷中, 3出结果
       resultList:[],
-      rank:"",    //单机情况玩家判定结果
-      rank1:"",    //玩家1判定的结果
-      rank2:"",    //玩家2判定的结果
-      rank3:"",    //玩家3判定的结果
-      rank4:"",    //玩家4判定的结果
+      rank:"",//成绩
+      rank1:"",
+      rank2:"",
+      rank3:"",
       score1:"",
       score2:"",
       score3:"",
@@ -33,7 +32,7 @@ Page({
         '玩家4'
        ],
 
-      // 骰子图片地址
+      // 骰子数组
       dices: [
         '/assets/images/dice/dongtu.gif',
         '/assets/images/dice/d1.png',
@@ -44,7 +43,7 @@ Page({
         '/assets/images/dice/d6.png',
       ],
       
-      //博饼结果
+      //博饼成绩图
       dicelist:[
         '/assets/images/dice/d1.png',
         '/assets/images/dice/d2.png',
@@ -53,23 +52,17 @@ Page({
         '/assets/images/dice/d5.png',
         '/assets/images/dice/d6.png',
       ],
-
     },
 
-    /** 
-     * 点击下拉框
-     */
+    /*下拉框*/
     bindShowMsg() {
       this.setData({
       select: !this.data.select
       })
     },
-    /**
-     * 已选下拉框
-     */
-    mySelect(e) {
-      console.log(e)
-      var name = e.currentTarget.dataset.name
+    mySelect(myse) {
+      console.log(myse)
+      var name = myse.currentTarget.dataset.name
       console.log("选择人数",name)
       this.setData({
       num: name,
@@ -78,7 +71,7 @@ Page({
       num = name
     },
 
-      //确定按钮
+      //开始游戏
      click(){
       console.log("确定房间人数：", num)
         if(!this.data.num){
@@ -91,7 +84,6 @@ Page({
                 statu:1
             })
             console.log("创建成功！")
-            
           }
       },
 
@@ -104,14 +96,14 @@ Page({
     },
 
     click2(){
-      console.log("点击停止投掷")
+      console.log("停！")
       this.setData({
         statu: 3
       })
       this.result();
   },
 
-    random(min,max){   //生成随机数
+    random(min,max){//随机数函数
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random()*(max-min+1)+min);
@@ -120,7 +112,7 @@ Page({
     result(){
       var list=[];
       var listsrc=[];
-      var countList=[0,0,0,0,0,0,0];
+      var countList=[0,0,0,0,0,0,0];//数组用于存储一到六
       for(var i=0;i<6;i++){
           var t=this.random(1,6);
           list.push(t);
@@ -160,7 +152,7 @@ Page({
           })
           flag = 1
         }
-        if ( countList[3] == 3) {
+        if ( countList[4] == 3) {
           this.setData({
             rank: "三红！",
           })
@@ -226,23 +218,21 @@ Page({
       })
     },
   
-  next2(){ //点击轮到玩家2
+  next2(){ //轮到玩家2
     this.setData({
       p:2,
       statu:1,
       rank1:rank,
     })
   },
-
-  next3(){ //点击轮到玩家3
+  next3(){ //轮到玩家3
     this.setData({
       p:3,
       statu:1,
       rank2:rank,
     })
   },
-
-  next4(){ //点击轮到玩家4
+  next4(){//轮到玩家4
     this.setData({
       p:4,
       statu:1,
@@ -264,7 +254,6 @@ Page({
         rank3:rank,
       })
     }
-
     if(num=='4人'){
       this.setData({
         rank4:rank,
