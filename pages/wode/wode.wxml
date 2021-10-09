@@ -6,5 +6,6 @@
     </view>
     <view class="name">草世木牧牛郎</view>
     <view class="qianming">个性签名..</view>
+    <image class="jilu" src="/assets/images/jilu.png"></image>
     </other-widget>  <!--图层高 -->
 </view>
