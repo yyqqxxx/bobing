@@ -91,7 +91,6 @@
                 <view class='ranktitle'>
                     <text class='title1'>用户</text>
                     <text class='title2'>结果</text>
-                    <text class='title3'>积分</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
@@ -207,7 +206,6 @@
                 <view class='ranktitle'>
                     <text class='title1'>用户</text>
                     <text class='title2'>结果</text>
-                    <text class='title3'>积分</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
@@ -368,7 +366,6 @@
                 <view class='ranktitle'>
                     <text class='title1'>用户</text>
                     <text class='title2'>结果</text>
-                    <text class='title3'>积分</text>
                 </view>
                 <view>
                     <text class='name_1'>{{userName[0]}}</text>
